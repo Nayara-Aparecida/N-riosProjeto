@@ -1,0 +1,134 @@
+/*rest css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+  }
+  
+  .title {
+    font-family: 'Vidaloka', serif;
+  }
+  
+  .title-border {
+    border-bottom: 5px solid #000;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  /*header*/
+  .header {
+    display: block;
+    padding: 30px 0 0 0;
+    background-color: #153648;
+  }
+  
+  .header .container {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .header.logo{
+  font-size: 3em;
+  background-color: #fff;
+  color: #fff;
+  padding: 15px 30px;
+  margin-bottom: 1.5em;
+  }
+  
+  
+  .header .nav{
+  width: 100%;
+  display: block;
+  margin-bottom: 5px solid background-color #000;
+  }
+  
+  .header .nav .menu{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header .nav .menu li{
+  display: block;
+  }
+  
+  .header .nav .menu li a{
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #CEE1DF;
+    font-weight: bold;
+    transition: ease .4s;
+  }
+  
+  
+  
+  .about-us{
+    margin-top: 200px;
+  }
+  
+  .container{
+    display: flex;
+    max-width: 1400px;
+    width: 400px;
+    margin: 5px auto;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255,0.1);
+  }
+  
+  .text-about{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .divisao{
+    padding: 100px;
+  }
+  
+  .img-about>img{
+    width: 40rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .text-about {
+      color: 
+    #012326;
+  }
+  
+  .text-about>h1 {
+      color: #64080B;
+  }
+  
+  .about-text1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #012326;
+  }
+  
+  .about--text2{
+  margin-top:20px;
+  margin-bottom: 30px;
+    color:#012326;
+  }
+  /*footer*/
+  .footer{
+  width: 100%;
+  padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #153648;
+    color: #CEE1DF;
+    font-family: 'Vidaloka';
+    margin-top: 50px;}
+    
